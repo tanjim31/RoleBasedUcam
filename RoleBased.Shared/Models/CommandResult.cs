@@ -21,4 +21,4 @@ namespace RoleBased.Shared.Models
         public CommandResultTypeEnum Type { get; set; }
     }
 }
-}
+

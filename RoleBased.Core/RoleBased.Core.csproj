@@ -13,11 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="CQRS\RoleBased\Command\Validation\" />
-    <Folder Include="CQRS\RoleBased\Query\Validation\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\RoleBased.Repository\RoleBased.Repository.csproj" />
     <ProjectReference Include="..\RoleBased.Services.Model\RoleBased.Services.Model.csproj" />
     <ProjectReference Include="..\RoleBased.Shared\RoleBased.Shared.csproj" />
