@@ -13,21 +13,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1BD489
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{06AB9F04-99BD-45CF-A3E7-89DC2F0DDB43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleBased.Model", "RoleBased.Model\RoleBased.Model.csproj", "{4EDE29E2-D1AC-4345-A7D4-A4B13067CA21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoleBased.Model", "RoleBased.Model\RoleBased.Model.csproj", "{4EDE29E2-D1AC-4345-A7D4-A4B13067CA21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleBased.Repository", "RoleBased.Repository\RoleBased.Repository.csproj", "{53BE6B66-7915-4DAF-902B-D4C6B1320D49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoleBased.Repository", "RoleBased.Repository\RoleBased.Repository.csproj", "{53BE6B66-7915-4DAF-902B-D4C6B1320D49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleBased.Shared", "RoleBased.Shared\RoleBased.Shared.csproj", "{55F0FE8C-D8ED-4117-A98A-1E1553F9CDF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoleBased.Shared", "RoleBased.Shared\RoleBased.Shared.csproj", "{55F0FE8C-D8ED-4117-A98A-1E1553F9CDF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleBased.Core", "RoleBased.Core\RoleBased.Core.csproj", "{FE0A55B7-C4EB-4AA4-B146-FDFC0415281A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoleBased.Core", "RoleBased.Core\RoleBased.Core.csproj", "{FE0A55B7-C4EB-4AA4-B146-FDFC0415281A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleBased.Infrastructure", "RoleBased.Infrastructure\RoleBased.Infrastructure.csproj", "{E09445FA-1D3F-4BD7-B6D2-319E73CB61C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoleBased.Infrastructure", "RoleBased.Infrastructure\RoleBased.Infrastructure.csproj", "{E09445FA-1D3F-4BD7-B6D2-319E73CB61C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleBased.IoC.Configuration", "RoleBased.IoC.Configuration\RoleBased.IoC.Configuration.csproj", "{41864E64-5025-4B11-9E49-729F715A4C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoleBased.IoC.Configuration", "RoleBased.IoC.Configuration\RoleBased.IoC.Configuration.csproj", "{41864E64-5025-4B11-9E49-729F715A4C77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleBased.Services.Model", "RoleBased.Services.Model\RoleBased.Services.Model.csproj", "{D86B8BB2-5DC7-446E-AEB3-AB3546A4EAAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoleBased.Services.Model", "RoleBased.Services.Model\RoleBased.Services.Model.csproj", "{D86B8BB2-5DC7-446E-AEB3-AB3546A4EAAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleBased.Backend", "RoleBased.Backend\RoleBased.Backend.csproj", "{C1A30460-6619-4877-B1F0-0887BACDB3C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoleBased.Backend", "RoleBased.Backend\RoleBased.Backend.csproj", "{C1A30460-6619-4877-B1F0-0887BACDB3C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleBased.Frontend", "RoleBasedFrontend\RoleBased.Frontend.csproj", "{335B0E17-0363-4116-92BE-03A90F5A6D47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{C1A30460-6619-4877-B1F0-0887BACDB3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1A30460-6619-4877-B1F0-0887BACDB3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1A30460-6619-4877-B1F0-0887BACDB3C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335B0E17-0363-4116-92BE-03A90F5A6D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335B0E17-0363-4116-92BE-03A90F5A6D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335B0E17-0363-4116-92BE-03A90F5A6D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335B0E17-0363-4116-92BE-03A90F5A6D47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +90,7 @@ Global
 		{41864E64-5025-4B11-9E49-729F715A4C77} = {06AB9F04-99BD-45CF-A3E7-89DC2F0DDB43}
 		{D86B8BB2-5DC7-446E-AEB3-AB3546A4EAAC} = {06AB9F04-99BD-45CF-A3E7-89DC2F0DDB43}
 		{C1A30460-6619-4877-B1F0-0887BACDB3C2} = {F79572D5-A93A-41EB-BB81-6CDB4894BDEC}
+		{335B0E17-0363-4116-92BE-03A90F5A6D47} = {F79572D5-A93A-41EB-BB81-6CDB4894BDEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4AF163E6-0D0A-4589-A11D-8B87D900772F}
